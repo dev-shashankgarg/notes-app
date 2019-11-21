@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./styles/styles.css" rel="stylesheet">
+        <title>Notes Application 2019: create note</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <h1 class="header__title">Create/Edit Note</h1>
+                <p class="header__subtitle"><i>Create or edit your note at speed</i></p>
+            </div>
+        </header>
+        <div class="actions">
+            <main class="container">
+                    <span><b>last edited:</b></span>
+                    <span id='lastEditedText'></span>
+                    <table>
+                    <tr><td>Title:</td> <td><input type="text" id='titleId' placeholder="note title" name="title" class="title-input"></td></tr>
+                    <tr><td>Description:</td><td><textarea id='descriptionId' rows="4" cols="50" placeholder="note description" name="description" class='body-input'></textarea></td></tr>
+                    </table>
+                    <br>
+                    <button type="submit" id='removeBtn' class="button button--secondary">remove note</button>
+                    <button type="submit" id='backBtn' class="button">go to home</button>
+            </main>
+        </div>
+        <footer class="container container__footer">
+            <p>Application designed exclusively for understanding javascript<br>
+            Developed by <b>Shashank garg</b> (<a href="https://github.com/dev-shashankgarg">github</a>)</p>
+        </footer>
+        
+        <script src='./scripts/create-bundle.js'></script>
+    </body>
+</html>

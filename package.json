@@ -1,0 +1,30 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "notes taking application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-shashankgarg/notes-app.git"
+  },
+  "keywords": [
+    "notes",
+    "webpack",
+    "js"
+  ],
+  "author": "dev-shashankgarg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-shashankgarg/notes-app/issues"
+  },
+  "homepage": "https://github.com/dev-shashankgarg/notes-app#readme",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}
