@@ -9,6 +9,16 @@ module.exports = {
         path : path.resolve(__dirname , 'public/scripts/'),
         filename: '[name]-bundle.js'
     },
+    module: {
+        rules: [{
+            use: {
+                loader: 'babel-loader',
+                options : {
+                    presets: ['@babel/env']
+                }
+            }
+        }]
+    },
     devServer: {
         contentBase : path.resolve(__dirname , 'public'),
         publicPath : '/scripts/'
