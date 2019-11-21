@@ -14,7 +14,7 @@ cd notes-app
 npm install
 ```
 
-3. Run the application (link!)[http://localhost:8080]
+3. Run the application [link!](http://localhost:8080)
 ```
 npm run start
 ```
